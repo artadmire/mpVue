@@ -1,0 +1,48 @@
+
+.userinfo.data-v-40188ecb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200rpx;
+}
+.userinfo-avatar.data-v-40188ecb {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname.data-v-40188ecb {
+  color: #aaa;
+}
+.form-control.data-v-40188ecb {
+  display: block;
+  padding: 0 24rpx;
+  margin-bottom: 10rpx;
+  border: 2rpx solid #ccc;
+}
+.counter.data-v-40188ecb {
+  display: inline-block;
+  margin: 20rpx auto;
+  padding: 10rpx 20rpx;
+  color: blue;
+  border: 2rpx solid blue;
+}
+.container.data-v-40188ecb {
+  width: 100%;
+  padding: 0 40rpx;
+  overflow: hidden;
+}
+._button.data-v-40188ecb {
+  width: 100%;
+  box-sizing: border-box;
+}
+.progressbar.data-v-7a72ec0e {
+  padding: 20rpx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.progressbar ._p.data-v-7a72ec0e {
+  text-align: center;
+  margin-top: 40rpx;
+}

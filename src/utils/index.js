@@ -18,7 +18,15 @@ export function formatTime (date) {
   return `${t1} ${t2}`
 }
 
+function showSuccess(text){
+  wx.showToast({
+    title:text,
+    icon:"success"
+  })
+}
+
 export default {
   formatNumber,
-  formatTime
+  formatTime,
+  showSuccess
 }

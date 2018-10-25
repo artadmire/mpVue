@@ -1,12 +1,28 @@
 <script>
-export default {
-  created () {
+import config from "@/config"
+import { get } from "@/utils/request"
+import qcloud from "wafer2-client-sdk"
+import utils from "./utils"
+//import Vconsole from "./vconsole.min.js"
+export default { 
+ async created () {
+   //let wip = await get("/weapp/demo")
+   //console.log(wip,99)
+   
+  // wx.removeStorageSync("userinfo")
+   
     // 调用API从本地缓存中获取数据
-    const logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+    // wx.getUserInfo({
+    //   success:function(res){
+    //     console.log(res)
+    //   }
+    // })
+   // wx.removeStorageSync("logs")
+    // const logs = wx.getStorageSync('logs') || []
+    // logs.unshift(Date.now())
+    // wx.setStorageSync('logs', logs)
 
-    console.log('app created and cache logs by setStorageSync')
+    // console.log('app created and cache logs by setStorageSync')
   }
 }
 </script>
